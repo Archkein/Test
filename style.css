@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin:  0 0 0;
+  text-decoration: none;
+}
+
+.wrapper{background: url(img1.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar{padding: 0;
+width: 100%;
+}
+
+.navdiv{
+  background: rgba(0, 0, 0, 0.7);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navdiv ul li{
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.navdiv ul li a{
+  color: orangered;
+}
+
+.logo {
+  font-family: arial;
+  color: darkred;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+  background: red;
+  border: 1px solid darkred;
+  border-radius: 35px;
+  padding: 5px;
+}
+
+.content{border: 2px solid yellow;
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.content{
+  position: absolute;
+  top: 45%;
+  margin-left: 15px;
+  
+}
+
+.content h1{color: orangered;
+  font-size: 30px;
+}
+
+.content p{color: indianred;
+  margin-top: 10px;
+}
+
+.btn{
+  background: red;
+  text-align: center;
+  margin-top: 15px;
+}
+
+button{
+  font-size: 25px;
+  padding: 5px;
+  border: 1px solid darkred;
+  border-radius: 45px;
+}
+
+.img2{
+  position: absolute;
+  top: 17%;
+  left: 53%;
+}
+
+.P{color: orangered;
+  margin-left: 30px;
+  position: absolute;
+  top: 21%;
+}
